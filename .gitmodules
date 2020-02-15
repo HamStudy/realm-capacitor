@@ -1,0 +1,3 @@
+[submodule "realm-js"]
+	path = realm-js
+	url = https://github.com/realm/realm-js.git
