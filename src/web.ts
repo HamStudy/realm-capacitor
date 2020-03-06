@@ -9,9 +9,9 @@ export class RealmAdapterWeb extends WebPlugin implements RealmAdapterPlugin {
     });
   }
 
-  async echo(options: { value: string }): Promise<{value: string}> {
-    console.log('ECHO', options);
-    return options;
+  async command(options: { msg: string, cmd: string }): Promise<{result: string}> {
+    console.log('command:', options);
+    return {result: JSON.stringify(options)};
   }
 }
 

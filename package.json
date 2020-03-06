@@ -10,6 +10,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
+  "homepage": "https://realm.io",
   "author": "Richard Bateman <richard@hamstudy.org>",
   "license": "MIT",
   "dependencies": {

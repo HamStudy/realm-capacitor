@@ -2,10 +2,18 @@ PODS:
   - Capacitor (1.5.0):
     - CapacitorCordova (= 1.5.0)
   - CapacitorCordova (1.5.0)
+  - Realm (4.3.2):
+    - Realm/Headers (= 4.3.2)
+  - Realm/Headers (4.3.2)
 
 DEPENDENCIES:
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - Realm
+
+SPEC REPOS:
+  trunk:
+    - Realm
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -16,7 +24,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Capacitor: 667658ab58e5a2e8465238eef7c6c5df46738688
   CapacitorCordova: 5b03f0b903bf066a8f3187e848252227190b681a
+  Realm: 5e92902e2875dff4bb0fd02f67bb737c3d5db2bc
 
-PODFILE CHECKSUM: 18edf3816e869cc37578950affc00fdd78ee0dcb
+PODFILE CHECKSUM: 193d138816b65d5b733c79d04165e9f39b30b760
 
 COCOAPODS: 1.8.4

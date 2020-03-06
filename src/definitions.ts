@@ -5,5 +5,5 @@ declare module "@capacitor/core" {
 }
 
 export interface RealmAdapterPlugin {
-  echo(options: { value: string }): Promise<{value: string}>;
+    command(options: { msg: string, cmd: string }): Promise<{result: string}>;
 }
