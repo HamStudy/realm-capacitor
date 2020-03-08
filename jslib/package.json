@@ -1,0 +1,23 @@
+{
+  "name": "realm-jslib",
+  "version": "1.0.0",
+  "description": "Realm Javascript library ported to Typescript for code readability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/deepmerge": "^2.2.0",
+    "@types/node": "^13.9.0",
+    "@types/node-fetch": "^2.5.5",
+    "@types/request": "^2.48.4",
+    "@types/url-parse": "^1.4.3",
+    "deepmerge": "^4.2.2",
+    "node-machine-id": "^1.1.12",
+    "request": "^2.88.2",
+    "typescript": "^3.8.3",
+    "url-parse": "^1.4.7"
+  }
+}
